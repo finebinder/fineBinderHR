@@ -1,0 +1,149 @@
+
+.container-fluid {
+    background-color: #094035;
+    padding: 10px 0 !important;
+}
+.navbar{
+    padding: 0 !important;
+    width: 80%;
+    margin: auto;
+}
+
+.navbar li{
+    font-family: Play;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.1em;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.navbar-toggler {
+    background-color: #00BF9C;
+}
+
+.navbar-expand-xl .navbar-nav {
+    margin-left: 10%;
+}
+
+.navbar-toggler-icon {
+    background-image: none;
+    width: 70%;
+    height: 2px;
+    color: #fff;
+}
+
+.navbar-light .navbar-toggler {
+        padding: 20px;
+    background: #00BF9C;
+    border-radius: 50%;
+    position: relative;
+}
+
+.stripse1{
+    position: absolute;
+    left: 4px;
+    top: 9px;
+    width: 80%;
+    height: 3px;
+    background : #fff ;
+}
+.stripse2 {
+    position: absolute;
+    left: 4px;
+    top: 18px;
+    width: 80%;
+    height: 3px;
+    background: #fff ;
+}
+.stripse3 {
+    position: absolute;
+    left: 4px;
+    top: 27px;
+    width: 80%;
+    height: 3px;
+    background: #fff ;
+}
+
+.navbar-light .navbar-toggler:focus .stripse1{
+    transform: rotate(45deg);
+    top: 18px;
+}
+
+.navbar-light .navbar-toggler:focus .stripse3{
+    transform: rotate(135deg);
+    top: 18px;
+}
+.navbar-light .navbar-toggler:focus .stripse2{
+    display: none;
+}
+
+/*section header*/
+
+.section-header{
+    width: 100%;
+    background: #00BF9C;
+}
+
+.section-main {
+    width: 80%;
+    height: 360px;
+    margin: 0 auto;
+
+    color: #FFFFFF;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.section-title h1{
+    font-size: 4em;
+    line-height: 110%;
+    margin-top: 1.5em;
+}
+.section-title {
+    width: 45%;
+}
+
+.section-info {
+    margin-left: auto;
+    width: 45%;
+    display: flex;
+    font-family: Play;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 110%;
+    margin-top: 9%;
+}
+.info-left {
+    margin-right: 5%;
+}
+.info-left button {
+    font-size: 90%;
+}
+
+
+.btn-demo button{
+    margin-top: 5%;
+    padding: .8em;
+    width: 100%
+    font-size: 1em;
+    height: 50px;
+    background: #FFD31D;
+    color: #000000;
+    transition: .4s linear;
+}
+
+.btn-demo button:hover {
+    box-shadow: 3px 0px 45px -7px rgba(9,64,53,1);
+    transition: .3s linear;
+}
+
+.drop-menu input {
+    display: none;
+}
+.icon-burger {
+    display: none;
+}
